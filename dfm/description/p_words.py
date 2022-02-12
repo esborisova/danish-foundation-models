@@ -154,4 +154,4 @@ if __name__ == "__main__":
     if not os.path.exists("csv"):
         os.makedirs("csv")
 
-    remove_irrelevant_columns(dgw_processed).to_csv("csv/dagw3.csv")
+    remove_irrelevant_columns(dgw_processed).to_csv("csv/dagw2.csv")
